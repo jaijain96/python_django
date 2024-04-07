@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     "pages.apps.PagesConfig",
+    "projects.apps.ProjectsConfig",
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -69,6 +70,9 @@ TEMPLATES = [
         },
     },
 ]
+
+MEDIA_ROOT = BASE_DIR / "uploads/"
+MEDIA_URL = "media/"
 
 WSGI_APPLICATION = 'personal_portfolio.wsgi.application'
 
