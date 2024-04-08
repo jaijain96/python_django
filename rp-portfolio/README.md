@@ -1,4 +1,4 @@
-# RealPython: [build a portfolio app](https://realpython.com/get-started-with-django-1/)
+# RealPython: [Get Started With Django: Build a Portfolio App](https://realpython.com/get-started-with-django-1/)
 
 ## Notes, Doubts
 
